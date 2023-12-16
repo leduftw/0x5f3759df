@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-float inverse_square_root(float x) {
+float inverse_sqrt(float x) {
     long i;
     float x2, y;
     const float threehalfs = 1.5F;
@@ -18,7 +18,7 @@ float inverse_square_root(float x) {
 
 int main() {
     float x = 2;
-    printf("1/sqrt(%.2f)=%.2f", x, inverse_square_root(x));
+    printf("1/sqrt(%.2f)=%.2f", x, inverse_sqrt(x));
 
     return 0;
 }
